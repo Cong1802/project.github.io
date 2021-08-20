@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main
+{
+	background-color: #F7F7F7;
+	border-bottom: 1px solid #ccc;
+}
+.top .top_left .lock i
+{
+	font-size: 50px;
+	background-color:#F48C08;
+	color: white;
+	border-radius: 90px;
+	padding:15px 10px;
+	align-items: center;
+}
+.top .top_left .content .h2
+{
+	font-size: 40px;
+}
+.top .top_right .h2
+{
+	font-family: 'Dancing Script', cursive;
+	color: yellow;
+	text-shadow: 0  2px 2px red;
+	font-size: 50px;
+	text-align: right;
+}
+.form_login
+{
+	margin-top: 100px;
+	border: 1px solid #ccc;
+	border-radius: 20px;
+}
+.form_login  ul
+{
+	margin: 0px;
+	padding: 0px;
+}
+.form_login  ul li
+{
+	list-style: none;
+	line-height: 40px;
+}
+
+.form_login .content
+{
+	margin: auto;
+}
+.form_login ul li input
+{
+	border-color: #ccc;
+	border-radius: 10px;
+}
+
+.form_login .login_admin2  
+{
+	border: 1px solid grey;
+	background-color: #0A55EB;
+	border-radius: 5px;
+	color: white;
+	font-weight: 600;
+	font-size: 20px;
+}
+.form_login .login_admin2   a
+{
+
+	color: white;
+	
+}
+.form_login .login_admin
+{
+	background-color: #ccc;
+	color: black;
+	font-size: 14px;
+	border: none;
+}
+.form_login .admin .h2
+{
+	font-size: 50px;
+}
+@media screen and (max-width:768px)
+{
+	.form_login ul li button
+	{
+		font-size: 15px;
+	}
+	.form_login .admin .h2
+	{
+		font-size: 35px
+	}
+	.top .top_right .h2
+	{
+		font-size: 25px;
+	}
+	.top .top_left .content .h2
+	{
+		font-size: 20px
+	}
+	.top .top_left .lock i
+	{
+		font-size: 30px
+	}
+}
+
+input
+{
+	width: 100%;
+}
+.form_login ul li .input
+{
+	font-weight: 600;
+}
+.footer
+{
+	margin-top: 50px;
+	background-color: #F0F0F0;
+	text-align: center;
+	padding: 20px 0;
+}

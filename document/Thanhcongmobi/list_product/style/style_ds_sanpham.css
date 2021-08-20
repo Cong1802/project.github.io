@@ -1,0 +1,736 @@
+body
+{
+	background-color: #f4f4f4;
+	position: relative;
+}
+.top
+{
+    background-color: #09483d;
+}
+.menu_top ul
+{
+	padding: 0px;
+	margin: 0px;
+}
+.menu_top ul li
+{
+	line-height: 30px;
+	list-style: none;
+}
+.menu_top ul li a
+{
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+	
+}
+.containerx
+{
+	max-width: 1200px;
+	margin: auto;
+}
+.containerx .top_main .logo span
+{
+	font-family: 'Dancing Script', cursive;
+	color: #1f9b83;
+	text-shadow: 2px 2px 2px #09483e;
+	font-size: 30px;
+}
+.search input
+{
+	border: none;
+	width: 100%;
+	outline: none;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px #cccccc;
+	height: 35px;
+}
+.search
+{
+	position: relative;
+}
+.search button
+{
+	position: absolute;
+	top: -5px;
+	left: 90%;
+	border: 1px solid #ffffff;
+	box-shadow: 0px 4px 6px #ccc;
+	border-radius: 10px;
+	background-color: #147361;
+	cursor: pointer;
+	padding: 5px 10px;
+}
+.check_don .oder
+{
+	background-color: #09483e;
+	border-radius: 13px;
+	list-style: 100%;
+	text-align: center;
+	font-size: 11px;
+	box-shadow: 2px 2px 4px #ccc;
+}
+.check_don .oder i
+{
+	font-size: 15px;
+}
+.cart i
+{
+	font-size: 30px;
+	color: #09483e;
+}
+.side_bar button
+{
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+	border: none;
+	background-color: #f4f4f4;
+	outline: none;
+	cursor: pointer;
+}
+.containerx .menu_main
+{
+	background-color: #09483e;
+	box-shadow: 4px 4px 4px #ccc;
+	border-radius: 5px;
+	z-index: 999;	
+	position: relative;
+	transition: 1s;
+	position: relative;
+	left: 0;
+	
+}
+.containerx .menu_main .menu>ul
+{
+	margin: 0px;
+	padding: 10px;
+	display: flex;
+} 
+
+.containerx .menu_main .menu>ul>li
+{
+	list-style: none;
+	height: 50px;
+	
+}
+.containerx .menu_main .menu>ul>li>a
+{
+	
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	display: block;
+}
+.containerx .menu_main .menu>ul>li .submenu
+{
+	position: absolute;
+	width: 100%;
+	display: none !important;
+	left: 0;
+	display: flex;
+	box-shadow: 4px 4px 4px #ccc;
+	border-radius:  0 0 10px 10px;
+}
+
+.containerx .menu_main .menu>ul>li>a::after
+{
+	content: "";
+	width: 0%;
+	height: 5px;	
+	bottom: 0;
+	left: 0px;
+	background-color: #ff6801;
+	position: absolute;
+	border-radius: 10px;
+}
+.containerx .menu_main .menu>ul>li>a
+{
+	color: white;
+	font-size: 14px;
+	text-decoration: none;
+}
+.containerx .menu_main .menu>ul>li>a>i
+{
+	font-size: 20px;
+}
+
+.sliderz img
+{
+	border-radius: 10px;
+}
+.sliderz
+{
+	margin-top: 15px;
+}
+.phone_new
+{
+	margin-top:15px;
+}
+.watch
+{
+	background: transparent linear-gradient(90deg,#009981 0%,#00483d 100%) 0% 0% no-repeat;
+}
+.watch:hover a
+{
+	color: #009981;
+}
+.watch a
+{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 15px;
+}
+.apple_product a
+{
+	color: black;
+	text-decoration: none;
+}
+.apple_product .card
+{
+	justify-content: center;
+	border: none;
+	box-shadow: 1px 1px 3px 2px #ccc;
+	border-radius: 10px;
+}
+.apple_product  .card .img
+{
+	width: 100%;
+}
+.apple_product  .card_sale
+{
+	background-color: #ff6801;
+	width: 60%;
+	top: 60%;
+	border-radius:10px;
+	text-align: center;
+	color: white;
+	position: absolute;
+	font-size: 11px;
+}
+.apple_product .sale_hot
+{
+	position: absolute;
+	top: 50px;
+	width: 40%;
+}
+.card
+{
+	width: 19%;
+}
+.card-title
+{
+	font-size: 12px;
+}
+.card-text
+
+{
+	font-size: 13px;
+}
+.slide_watch .slide .item a span
+{
+	font-size: 13px;
+}
+.slide_watch .slide .item a
+{
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+.slide_watch .slide .item a p
+{
+	font-size: 14px;
+}
+.slide_watch
+{
+	background-color: #ffffff;
+	border-radius: 10px;
+	box-shadow: 1px 1px 3px 1px #ccc;
+}
+.slide_watch .slide a
+{
+	cursor: pointer;
+}
+.slide_watch .slide a p
+{
+	font-weight: bold;
+	font-size: 15px;
+	margin: 0px;
+}
+.slide_watch .slide a .giasale
+{
+	color: red;
+	font-weight: bold;
+	font-size: 14px;
+}
+.slide_watch .slide .giagoc
+{
+	color: black;font-size: 12px;
+}
+.slide_watch .slide a img
+{
+	width: 90%;
+}
+.slide_watch .item img
+{
+	background-color: #f4f4f4;
+	border-radius: 10px;
+	border: 1px solid #efefef;
+}
+.support .item i
+{
+	font-size: 50px;
+	font-weight: bold;
+	color: #09483d;
+}
+.support .item p
+{
+	font-size: 15px;
+	font-weight: 600;
+}
+.footer
+{
+	background-color: #09483d;
+	color: white;
+	border-radius: 10px;
+}
+.footer span
+{
+	font-weight: bold;
+	font-size: 15px;
+}
+.footer p
+{
+	font-size: 12px;
+}
+.containerx .menu_main .menu .submenu .item ul li a
+{
+	text-decoration: none;
+	color: black;
+	font-size: 12px;
+}
+.newspaper p
+{
+	font-size: 11px;
+}
+.breadcrumb
+{
+	background-color: #f4f4f4;
+}
+.breadcrumb li ,a
+{
+	color: black;
+	font-weight: bold;
+	font-size: 12px;
+}
+.breadcrumb li:last-child
+{
+	color: #009981;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    display: inline-block;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    color: #6c757d;
+    content: " > ";
+}
+.phone_new a
+{
+	background-color: white;
+	border-radius: 10px;
+}
+.phone_new a:hover
+{
+	transform: scale(1.15);
+	transition: 1s;
+}
+.fitter
+{
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 4px 4px 4px #ccc;
+	position: relative;
+}
+.fitter span
+{
+	padding:20px;
+	font-size: 14px;
+}
+.fitter span:hover .list_product
+{
+	display:block;
+}
+.fitter span .list_product a:hover
+{
+	color: #009981;
+}
+.fitter span:first-child
+{
+	font-weight: bold;
+	color:#009981;
+}
+.fitter span .list_product
+{
+	position: absolute;
+	width: 100%;
+	left:0;
+	top: 45px;
+	background-color:white;
+	border-radius:10px;
+	box-shadow:4px 4px 4px #ccc;
+	display: none;
+	z-index: 1;
+}
+
+@media screen and (max-width:1200px)
+{
+		.containerx
+		{
+			max-width: 100%;
+			margin: 0px;
+		}
+		.containerx .menu_main .menu ul li a
+		{
+			color: white;
+			font-size: 12px;
+		}
+		.containerx .menu_main .menu ul li a i
+		{
+			font-size: 18px;
+		}
+}
+@media screen and (max-width:991px)
+{	
+		.card
+		{
+			width: 24%;
+		}
+		.watch a
+		{
+			font-size: 12px;
+		}
+		.sliderz .slide .slide_mini div
+		{
+			font-size: 13px;
+		}.sliderz .slide .slide_mini
+		{
+			font-size: 12px;
+		}
+		.containerx .top_main .logo span
+		{
+			font-family: 'Dancing Script', cursive;
+			color: #1f9b83;
+			text-shadow: 2px 2px 2px #09483e;
+			font-size: 25px;
+		}
+		.check_don .oder
+		{
+			background-color: #09483e;
+			border-radius: 13px;
+			list-style: 100%;
+			text-align: center;
+			font-size: 10px;
+		}
+	
+		.check_don .oder i
+		{
+			font-size: 15px;
+		}
+		.cart i
+		{
+			font-size: 25px;
+		}
+		.containerx .menu_main .menu>ul>li>a
+		{
+			color: white;
+			font-size: 10px;
+		}
+		.containerx .menu_main .menu ul li a i
+		{
+			font-size: 15px;
+		}
+		.apple_product  .card_sale
+		{
+			top: 50%;
+		}
+		.slide_watch .slide a p
+		{
+			font-weight: bold;
+			font-size: 11px;
+		}
+		.slide_watch .slide a .giasale
+		{
+			color: red;
+			font-weight: bold;
+			font-size: 10px;
+		}
+		.slide_watch .slide .giagoc
+		{
+			color: black;
+			font-size: 8px;
+		}
+}
+@media screen and (min-width:768px)
+{
+		.containerx .menu_main .menu>ul>li>a:hover::after
+		{
+			transition: .2s;
+			width: 100%;
+		}
+			.containerx .menu_main .menu>ul>li:hover .submenu
+		{
+			text-align: left;
+			display: block !important;
+		}
+		.submenu
+		{
+			position: absolute;
+			width: 100%;
+			background-color: white;;
+		}
+		.submenu .item span
+		{
+			text-transform: uppercase;
+			font-size: 13px;
+			font-weight: bold;
+		}
+		.submenu .item ul li
+		{
+			list-style: none;
+		}
+		.containerx .menu_main .menu .submenu .item ul li a
+		{
+			text-decoration: none;
+			color: black;
+			font-size: 12px;
+		}
+}
+@media screen and (max-width:768px)
+{	
+	.top
+	{
+		display: none;
+	}
+	.top_main
+	{
+		position: fixed;
+		top: 0;
+		z-index: 123;
+		background-color: #f4f4f4;
+		width: 100%;
+	}
+	.check_don
+	{
+		display: none !important;
+	}
+	.footer span
+	{
+		font-weight: bold;
+		font-size: 9px;
+	}
+	.footer p
+	{
+		font-size: 7px;
+	}
+	.card-text
+
+	{
+		font-size: 11px;
+	}
+
+	.card-title
+	{
+		font-size: 10px;
+	}
+	.card
+	{
+		width: 31%;
+	}
+	.apple_product  .card_sale
+	{
+		top: 40%;
+		font-size: 9px;
+	}
+	.watch a
+	{
+		font-size: 10px;
+	}
+	.phone_new
+	{
+		margin-top:70px;
+	}
+	.sliderz .slide .slide_mini div
+	{
+		font-size: 10px;
+	}
+	.sliderz
+	{
+		margin-top: 80px;
+	}
+	.sliderz .slide .slide_mini
+	{
+		font-size: 10px;
+	}
+	.slide_mini
+	{
+		bottom: -50px;
+	}
+	.containerx .menu_main .menu ul li a
+	{
+		color:#00483d;
+		font-size: 10px;
+		text-decoration: none;
+		line-height: 15px;
+	}
+	.menu_main
+	{	
+		position: fixed !important;
+		left:-120px;
+		transition: 0.5s;
+		width: 120px !important;
+		top: 85px !important;
+		background-color: white !important;
+	}
+	.menu_main .menu ul
+	{
+		
+		display: block !important;
+	}
+	.menu_main .menu ul li
+	{
+		border-bottom: 1px solid #00483d;
+	}
+	.menu_top ul li a
+	{
+		font-size: 10px;
+	}
+	.check_don .oder i
+	{
+		font-size: 15px;
+	}
+	.check_don .oder
+	{
+		font-size: 7px;
+	}
+	.search input
+	{
+		height: 25px;
+	}
+	.search button
+	{
+		padding: 2px 5px;
+	}
+	.cart i
+	{
+		font-size: 20px;
+	}
+}
+@media screen and (max-width:576px)
+{	
+	.slide_watch .slide a p
+	{
+		font-weight: bold;
+		font-size: 6px;
+	}
+	.slide_watch .slide a .giasale
+	{
+		color: red;
+		font-weight: bold;
+		font-size: 5px;
+	}
+	.slide_watch .slide .giagoc
+	{
+		color: black;font-size: 4px;
+	}
+	.card
+	{
+		width: 48%;
+		margin: 10px 0;
+	}
+	.watch a
+	{
+		font-size: 6px;
+	}
+	.phone_new
+	{
+		margin-top:40px;
+	}
+	.sliderz .slide .slide_mini div
+	{
+		font-size: 7px;
+		border-radius: 5px;
+	}
+	.slide_mini
+	{
+		bottom: -30px;
+	}	
+	.containerx .menu_main .menu ul li a
+	{
+		color:#00483d ;
+		font-size: 9px;
+		text-decoration: none;
+	}
+	.menu_top ul li a
+	{
+		font-size: 8px;
+	}
+	.cart i
+	{
+		font-size: 20px;
+	}
+	.search button
+	{
+		padding: 1px 4px;
+		font-size: 10px;
+		top: 0;
+		left: 90%;
+	}
+	.search input
+	{
+		height: 25px;
+	}
+	.side_bar a
+	{
+		text-decoration: none;
+		color: black;
+		font-size: 15px;
+	}
+	.side_bar button
+	{
+		text-decoration: none;
+		color: black;
+		font-size: 18px;
+		border: none;
+		background-color: #f4f4f4;
+	}
+}
+@media screen and (max-width:375px)
+{	
+	.phone_new
+	{
+		margin-top:30px;
+	}
+	.sliderz .slide .slide_mini div
+	{
+		box-shadow: 4px 4px 4px #ccc;
+		font-size: 5px;
+		width: 13%;
+		text-align: center;
+		border-radius: 5px;
+
+	}
+	.menu_top ul li a
+	{
+		font-size: 6px;
+	}
+	.check_don .oder a i
+	{
+		font-size: 5px;
+	}
+	.check_don .oder a span
+	{
+		font-size: 2px;
+	}
+}

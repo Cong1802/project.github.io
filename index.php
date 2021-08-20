@@ -1,0 +1,17 @@
+<?php
+    include "application/Connection.php";
+    include "application/Controller.php";
+?>
+<?php
+    $controller = isset($_GET['controller']) ? $_GET['controller'] : "Home";
+    $action = isset($_GET['action']) ? $_GET['action'] : "index";
+    $controllerFile = "controllers/".$controller."Controller.php";
+    if(file_exists($controllerFile))
+    {
+        include $controllerFile;
+        $controllerClass = $controller."Controller";
+        $obj = new $controllerClass();
+        $obj->$action();
+    }
+    else die("Could not find");
+?>
